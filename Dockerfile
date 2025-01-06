@@ -20,5 +20,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Expose ports for FastAPI and Streamlit
-EXPOSE 8000 8501
+# Expose ports for Streamlit
+EXPOSE 8501
